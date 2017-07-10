@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <!doctype html>
+    <title>Number Guesser</title>
+    <link rel="stylesheet" href="style_page2_levelUp.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:700&text=Number">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300">
+  </head>
+  <body>
+      <header>
+        <h1><span id="number">Number</span> <span id="guesser">Guesser</span></h1>
+      </header>
+    <form id ="guessForm" method="get">
+      <fieldset class="enterGuess">
+        <input id="currGuess" type="text" name="guess" placeholder="Enter your guess"/>
+        <button id="guess">Guess</button>
+        <button id="clear">Clear</button>
+      </fieldset>
+      <div class="guess">
+        <p id="lastGuess">Play Number Guesser!</p>
+        <p id ="increasedRange">The range increased by 20!</p>
+        <p id="guessNum">?</p>
+        <p id="highLowCorrect">Enter a number between <span id = "minRange">0</span> and <span id="maxRange">100</span>!</p>
+      </div>
+      <fieldset class="reset">
+        <button id="reset">Reset</button>
+        <button id="levelUp">Level Up</button>
+      </fieldset>
+    </form>
+    <script src="scripts_page2_levelUp.js"></script>
+  </body>
+</html>

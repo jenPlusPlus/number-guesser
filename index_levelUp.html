@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <!doctype html>
+    <title>Number Guesser</title>
+    <link rel="stylesheet" href="style_page1_levelUp.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300">
+  </head>
+  <body>
+      <header>
+        <h1><span id="number">Number</span> <span id="guesser">Guesser</span></h1>
+      </header>
+      <div class="playNumGuesser">
+        <p id="guessNum">?</p>
+        <div id="instructions">
+          <p id ="instructions1" class="instructions">Enter a minimum number and maximum number.</p>
+          <p class="instructions"> Number Guesser will generate a number between the minimum and maximum for you to guess.</p>
+        </div>
+      </div>
+    <form>
+      <fieldset class="enter">
+        <input id="minimum" type="text" name="minimum" placeholder="Minimum" />
+        <input id="maximum" type="text" name="maximum" placeholder="Maximum" />
+        <button id="enter">Enter</button>
+        <button id="reset">Reset</button>
+      </fieldset>
+    </form>
+    <script src="scripts_page1_levelUp.js"></script>
+  </body>
+</html>

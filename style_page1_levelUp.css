@@ -1,0 +1,126 @@
+/* global */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* header */
+header {
+  background: #404041;
+  height: 15%;
+}
+h1 {
+  text-align: center;
+  padding-top: 8px;
+  font-size: 58;
+}
+button {
+  color: #ffffff;
+  font-weight: 300;
+  border-radius: 25px;
+  border-style: none;
+  height:20px;
+  font-size: 20px;
+}
+button:enabled {
+  background-color: #929497;
+}
+button:hover {
+  background-color: #EB008B;
+}
+button:disabled {
+  background-color: #D0D2D3;
+}
+#number {
+  color: #ED458B;
+  font-weight: 700;
+}
+#guesser {
+  color: #E6E7E8;
+  font-weight: 300;
+}
+#instructions {
+  background-color: #D0D2D3;
+  padding: 20px;
+  border-radius: 10px;
+  padding: 0px 10px 0px 10px;
+}
+
+/* form */
+
+input {
+  margin: auto;
+  border-radius: 25px;
+  width: 100%;
+  height: 25%;
+  border-style: solid;
+  border-color: #D0D2D3;
+  font-size: 14px;
+}
+.enter {
+  text-align: center;
+  border-style: none;
+  width: 69%;
+  margin: 25px auto 25px auto;
+}
+#enter {
+  display: inline-block;
+  width: 48%;
+  margin: 5px 0px 5px 0px;
+  height: 30px;
+}
+#reset {
+  display: inline-block;
+  width: 48%;
+  height: 30px;
+}
+form {
+  height: 25%;
+}
+#minimum, #maximum {
+  margin: 5px 0px 5px 0px;
+  height: 15%;
+  padding-left: 4px;
+  width: 48%;
+}
+
+
+/* guesser */
+p {
+  text-align: center;
+  font-size: 17px;
+
+}
+.playNumGuesser {
+  width: 66%;
+  margin:auto;
+}
+.instructions {
+  color: #404041;
+}
+#instructions1 {
+  margin-bottom: 15px;
+}
+#play {
+  color: #EB008B;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 300;
+  margin-top: 25px;
+  line-height: 38px;
+}
+#guessNum {
+  color: #EB008B;
+  font-size: 125px;
+  font-weight: 300;
+  border: 3px;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: #404041;
+  width: 180px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
